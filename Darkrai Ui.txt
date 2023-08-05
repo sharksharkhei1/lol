@@ -1,4 +1,3 @@
-
 local PlaceName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId)
 
     if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
@@ -101,7 +100,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 	Main.Parent = Darkrai
 	Main.ClipsDescendants = true
 	Main.AnchorPoint = Vector2.new(0.5,0.5)
-	Main.BackgroundColor3 = Color3.fromRGB(25, 45, 45)
+	Main.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 	Main.Position = UDim2.new(0.5, 0, 0.5, 0)
 	Main.Size = UDim2.new(0, 0, 0, 0)
 	
@@ -114,7 +113,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 	local Top = Instance.new("Frame")
 	Top.Name = "Top"
 	Top.Parent = Main
-	Top.BackgroundColor3 = Color3.fromRGB(65, 35, 35)
+	Top.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 	Top.Size = UDim2.new(0, 656, 0, 27)
 
 	local TCNR = Instance.new("UICorner")
@@ -124,7 +123,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 	local Logo = Instance.new("ImageLabel")
 	Logo.Name = "Logo"
 	Logo.Parent = Top
-	Logo.BackgroundColor3 = Color3.fromRGB(155, 255, 255)
+	Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Logo.BackgroundTransparency = 1.000
 	Logo.Position = UDim2.new(0, 10, 0, 1)
 	Logo.Size = UDim2.new(0, 25, 0, 25)
@@ -133,7 +132,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 	local Name = Instance.new("TextLabel")
 	Name.Name = "Name"
 	Name.Parent = Top
-	Name.BackgroundColor3 = Color3.fromRGB(155, 255, 255)
+	Name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Name.BackgroundTransparency = 1.000
 	Name.Position = UDim2.new(0.0609756112, 0, 0, 0)
 	Name.Size = UDim2.new(0, 61, 0, 27)
@@ -145,7 +144,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 	local Hub = Instance.new("TextLabel")
 	Hub.Name = "Hub"
 	Hub.Parent = Top
-	Hub.BackgroundColor3 = Color3.fromRGB(155, 255, 255)
+	Hub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Hub.BackgroundTransparency = 1.000
 	Hub.Position = UDim2.new(0, 110, 0, 0)
 	Hub.Size = UDim2.new(0, 81, 0, 27)
@@ -158,7 +157,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 	local BindButton = Instance.new("TextButton")
 	BindButton.Name = "BindButton"
 	BindButton.Parent = Top
-	BindButton.BackgroundColor3 = Color3.fromRGB(155, 255, 255)
+	BindButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	BindButton.BackgroundTransparency = 1.000
 	BindButton.Position = UDim2.new(0.847561002, 0, 0, 0)
 	BindButton.Size = UDim2.new(0, 100, 0, 27)
@@ -170,7 +169,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 	local Tab = Instance.new("Frame")
 	Tab.Name = "Tab"
 	Tab.Parent = Main
-	Tab.BackgroundColor3 = Color3.fromRGB(25, 35, 35)
+	Tab.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 	Tab.Position = UDim2.new(0, 5, 0, 30)
 	Tab.Size = UDim2.new(0, 150, 0, 365)
 
@@ -182,7 +181,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 	ScrollTab.Name = "ScrollTab"
 	ScrollTab.Parent = Tab
 	ScrollTab.Active = true
-	ScrollTab.BackgroundColor3 = Color3.fromRGB(155, 255, 255)
+	ScrollTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	ScrollTab.BackgroundTransparency = 1.000
 	ScrollTab.Size = UDim2.new(0, 150, 0, 365)
 	ScrollTab.CanvasSize = UDim2.new(0, 0, 0, 0)
@@ -203,7 +202,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 	local Page = Instance.new("Frame")
 	Page.Name = "Page"
 	Page.Parent = Main
-	Page.BackgroundColor3 = Color3.fromRGB(25, 35, 35)
+	Page.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 	Page.Position = UDim2.new(0.245426834, 0, 0.075000003, 0)
 	Page.Size = UDim2.new(0, 490, 0, 365)
 
@@ -215,7 +214,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 	MainPage.Name = "MainPage"
 	MainPage.Parent = Page
 	MainPage.ClipsDescendants = true
-	MainPage.BackgroundColor3 = Color3.fromRGB(155, 255, 255)
+	MainPage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	MainPage.BackgroundTransparency = 1.000
 	MainPage.Size = UDim2.new(0, 490, 0, 365)
 
@@ -257,7 +256,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 		TabButton.Parent = ScrollTab
 		TabButton.Name = text.."Server"
 		TabButton.Text = text
-		TabButton.BackgroundColor3 = Color3.fromRGB(25, 35, 35)
+		TabButton.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 	    TabButton.BorderColor3 = Color3.fromRGB(147,112,219)
         TabButton.BorderSizePixel = 3
 		TabButton.Size = UDim2.new(0, 130, 0, 23)
@@ -270,7 +269,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 		MainFramePage.Name = text.."_Page"
 		MainFramePage.Parent = PageList
 		MainFramePage.Active = true
-		MainFramePage.BackgroundColor3 = Color3.fromRGB(155, 255, 255)
+		MainFramePage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 		MainFramePage.BackgroundTransparency = 1.000
 		MainFramePage.BorderSizePixel = 0
 		MainFramePage.Size = UDim2.new(0, 490, 0, 365)
@@ -356,7 +355,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 			
 			TextBtn.Name = "TextBtn"
 			TextBtn.Parent = Button
-			TextBtn.BackgroundColor3 = Color3.fromRGB(35, 45, 45)
+			TextBtn.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 			TextBtn.Position = UDim2.new(0, 1, 0, 1)
 			TextBtn.Size = UDim2.new(0, 468, 0, 29)
 			TextBtn.AutoButtonColor = false
